@@ -56,6 +56,7 @@ namespace Meowtrix.MoeIDE
             base.Initialize();
             mainBackground = new WindowBackground(Application.Current.MainWindow);
             SettingsManager.LoadSettings();
+            ControlBackground.OverrideBackground("Microsoft.VisualStudio.PlatformUI.HierarchyNavigatorHost, Microsoft.VisualStudio.Shell.UI.Internal, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a");
         }
 
         #endregion
